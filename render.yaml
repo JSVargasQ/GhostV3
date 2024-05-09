@@ -1,6 +1,7 @@
 services:
 - type: web
   name: ghost
+  plan: free
   env: docker
   autoDeploy: false
   disk:
